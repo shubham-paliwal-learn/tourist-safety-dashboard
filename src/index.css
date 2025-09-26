@@ -1,0 +1,9 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-neutral-bg-light text-text-primary-light antialiased;
+  /* Add dark mode support if needed in the future */
+}
